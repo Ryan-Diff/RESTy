@@ -1,16 +1,18 @@
-
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import HistoryItem from './History-Item';
+import Controls from './Controls';
 
-describe('HistoryItem component', () => {
+describe('Controls component', () => {
   afterEach(() => cleanup());
-  it('render HistoryItem component', () => {
-    const { asFragment } = render(<HistoryItem
+  it('render Controls component', () => {
+    const { asFragment } = render(<Controls
       url='https://placekitten.com/'
       method='GET'
       body=''
+      onSubmit={() => { }}
+      onChange={() => { }}
     />);
+
     expect(asFragment()).toMatchSnapshot();
   });
 });

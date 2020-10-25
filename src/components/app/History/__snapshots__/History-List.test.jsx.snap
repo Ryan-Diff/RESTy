@@ -4,7 +4,7 @@ exports[`HistoryList component render HistoryList component 1`] = `
 <DocumentFragment>
   <ul>
     <li>
-      History
+      Request History
     </li>
     <li>
       <h2>
@@ -13,6 +13,7 @@ exports[`HistoryList component render HistoryList component 1`] = `
       <p>
         https://placekitten.com/
       </p>
+      <p />
     </li>
   </ul>
 </DocumentFragment>

@@ -8,5 +8,6 @@ exports[`HistoryItem component render HistoryItem component 1`] = `
   <p>
     https://placekitten.com/
   </p>
+  <p />
 </DocumentFragment>
 `;

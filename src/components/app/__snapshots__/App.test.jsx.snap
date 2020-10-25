@@ -4,5 +4,6 @@ exports[`App component renders App 1`] = `
 <DocumentFragment>
   <h2 />
   <p />
+  <p />
 </DocumentFragment>
 `;

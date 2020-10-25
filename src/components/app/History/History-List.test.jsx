@@ -8,8 +8,8 @@ describe('HistoryList component', () => {
   it('render HistoryList component', () => {
     const { asFragment } = render(<HistoryList
     histories={[{
-        url:"https://placekitten.com/",
-        method:"GET"
+        url:'https://placekitten.com/',
+        method:'GET'
     }]}    
     />);
     expect(asFragment()).toMatchSnapshot();
