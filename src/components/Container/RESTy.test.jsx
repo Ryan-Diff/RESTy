@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import RESTy from './RESTy';
 import { fetchApi } from '../../services/Fetch-API';
 
-jest.mock('../../services/Fetch-API');
+jest.mock('../../Services/Fetch-API');
 
 describe('RESTy container', () => {
   it('uses GET to hit api and display the result', async () => {
