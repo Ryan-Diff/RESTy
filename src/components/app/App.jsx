@@ -1,6 +1,6 @@
 import React from 'react';
-import HistoryItem from '../History/History-Item';
+import RESTy from '../Container/RESTy';
 
 export default function App() {
-  return <HistoryItem />;
+  return <RESTy />;
 }
