@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import RESTy from './RESTy';
-import { fetchApi } from '../../services/Fetch-API';
+import { fetchApi } from '../../Services/Fetch-API';
 
 jest.mock('../../Services/Fetch-API');
 
